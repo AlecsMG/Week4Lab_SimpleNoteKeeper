@@ -12,5 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <form method="post" action="note">
+        Title: <input name="editTitle" value="${editTitle}">
+        <br>
+        Contents: <textarea name="editContents" style="width: 200px; height: 150px;">${editContents}</textarea><br>
+        <input type="submit" name="save" value="Save">
+        </form>
     </body>
 </html>

@@ -12,7 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-       <header>Simple Note Keeper</header>
-        <h1>View Note</h1>
+       <h1>Simple Note Keeper</h1>
+        <h2>View Note</h2>
+        Title: ${note.title}<br><br>
+        Contents: <br>${note.contents}<br><br>
+        
+        <a href="note?edit">Edit</a>
     </body>
 </html>
